@@ -1,0 +1,83 @@
+{
+  "FileName": "vault_scopesvt",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -3.0,
+  "SpeedForward": 2.0,
+  "SpringStiffness": 100.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 105.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "SVT40",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Cocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "ScopeSVT40PU",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0371999778,
+        "z": 0.0615698658
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "m_zoomSettingIndex": "0",
+        "ZeroDistanceIndex": "0",
+        "ElevationStep": "0",
+        "WindageStep": "0"
+      }
+    }
+  ]
+}
