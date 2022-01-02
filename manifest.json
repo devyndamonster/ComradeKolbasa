@@ -1,0 +1,10 @@
+{
+    "name": "ComradeKolbasa",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/devyndamonster/TakeAndHoldTweaker",
+    "description": "A TNH character that uses Russian and Czech weapons!",
+    "dependencies": [
+        "DeliCollective-Deli-0.4.1",
+        "devyndamonster-TakeAndHoldTweaker-1.6.7"
+    ]
+}
