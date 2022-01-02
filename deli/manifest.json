@@ -13,8 +13,8 @@
   "assets": {
     "patcher": {},
     "setup": {
-      "ComradeKolbasa/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
-      "ComradeKolbasa/*vault*.json": "h3vr.tnhtweaker.deli:vault_file",
+      "ComradeKolbasa/Sosigs/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
+      "ComradeKolbasa/VaultFiles/*vault*.json": "h3vr.tnhtweaker.deli:vault_file",
       "ComradeKolbasa/": "h3vr.tnhtweaker.deli:character"
     },
     "runtime": {}
