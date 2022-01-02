@@ -27,30 +27,7 @@
     "Real"
   ],
   "GlobalAmmoBlacklist": [],
-  "MagazineBlacklist": [
-    {
-      "FirearmID": "SKSClassic",
-      "MagazineBlacklist": [
-        "MagazineSKSModern10rnd",
-        "MagazineSKSModern20rnd"
-      ],
-      "ClipBlacklist": []
-    },
-    {
-      "FirearmID": "MosinMini",
-      "MagazineBlacklist": [
-        "potatoesMagbox762_54"
-      ],
-      "ClipBlacklist": []
-    },
-    {
-      "FirearmID": "PPBizon",
-      "MagazineBlacklist": [
-        "PP1920"
-      ],
-      "ClipBlacklist": []
-    }
-  ],
+  "MagazineBlacklist": [],
   "RequireSightTable": {
     "Category": "Attachment",
     "Rarity": 1.0,
@@ -594,7 +571,7 @@
   "EquipmentPools": [
     {
       "Type": "Firearm",
-      "IconName": "pistol_small.png",
+      "IconName": "icon_small_pistol.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -620,7 +597,10 @@
           "M1895Nagant",
           "Deaglov",
           "Makarov",
-          "TT33"
+          "TT33",
+          "MP412REX",
+          "OTS38",
+          "pbpistol"
         ],
         "Eras": [],
         "Sets": [],
@@ -677,7 +657,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "pistol_big.png",
+      "IconName": "icon_large_pistol.png",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 1,
@@ -702,7 +682,12 @@
         "IDOverride": [
           "PL14",
           "GSh18",
-          "CZ75Shadow"
+          "CZ75Shadow",
+          "PMM",
+          "NWMPGrach",
+          "SR1MP",
+          "FTWgunPR15",
+          "FSCE.PL15"
         ],
         "Eras": [],
         "Sets": [],
@@ -759,7 +744,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "obrez.png",
+      "IconName": "icon_obrez.png",
       "TokenCost": 2,
       "TokenCostLimited": 2,
       "MinLevelAppears": 0,
@@ -881,7 +866,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "machine_pistol.png",
+      "IconName": "icon_machine_pistol.png",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 1,
@@ -904,10 +889,10 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "mchnpistol_APS",
           "PP91KEDR",
           "AEK919k",
-          "VZ64Skorpion"
+          "VZ64Skorpion",
+          "APS"
         ],
         "Eras": [],
         "Sets": [],
@@ -964,7 +949,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "scoped_rifle.png",
+      "IconName": "icon_scoped.png",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 0,
@@ -990,9 +975,9 @@
           "vault_scopemosin",
           "vault_scopesv98",
           "vault_scopevpo",
-          "vault_scopeakm",
           "vault_scopesks",
-          "vault_scopesvt"
+          "vault_scopesvt",
+          "vault_t5000"
         ],
         "Eras": [],
         "Sets": [],
@@ -1049,7 +1034,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "civilian.png",
+      "IconName": "icon_civilian.png",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 0,
@@ -1073,23 +1058,23 @@
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
           "vault_adar",
-          "vault_akmmolot",
           "vault_saiga9",
           "firearmVPO",
           "MosinM38",
           "Mosin91_30",
           "Toz106",
+          "Toz63",
           "IZh18_12g",
           "IZh18_20g",
+          "Izh27",
           "MTs255",
           "MP155k",
           "Saiga12k",
           "SKSClassic",
           "SKSModern",
           "vz58Sport",
-          "vault_saiga9long",
-          "vault_saiga9comp",
-          "vault_ak103civ"
+          "vault_133a",
+          "vault_153a"
         ],
         "Eras": [],
         "Sets": [],
@@ -1146,7 +1131,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "shotguns.png",
+      "IconName": "icon_shotgun.png",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 1,
@@ -1173,8 +1158,7 @@
           "vault_153a",
           "MTs255",
           "MP155k",
-          "Saiga12k",
-          "KS23"
+          "Saiga12k"
         ],
         "Eras": [],
         "Sets": [],
@@ -1195,11 +1179,11 @@
         "SubGroups": [
           {
             "Category": "Firearm",
-            "Rarity": 0.5,
+            "Rarity": 1,
             "RequiredQuest": "",
             "ItemsToSpawn": 1,
-            "MinAmmoCapacity": 15,
-            "MaxAmmoCapacity": 99,
+            "MinAmmoCapacity": -1,
+            "MaxAmmoCapacity": -1,
             "NumMagsSpawned": 1,
             "NumClipsSpawned": 0,
             "NumRoundsSpawned": 9,
@@ -1209,7 +1193,10 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "MP203"
+              "ftw.gun.ks23",
+              "ftw.gun.ks23L",
+              "ftw.gun.ks23S",
+              "ftw.gun.ks23SL"
             ],
             "Eras": [],
             "Sets": [],
@@ -1268,10 +1255,10 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "smg_small.png",
-      "TokenCost": 4,
-      "TokenCostLimited": 4,
-      "MinLevelAppears": 2,
+      "IconName": "icon_experimental.png",
+      "TokenCost": 8,
+      "TokenCostLimited": 8,
+      "MinLevelAppears": 0,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
@@ -1281,21 +1268,23 @@
         "RequiredQuest": "",
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": 0,
-        "MaxAmmoCapacity": 1,
-        "NumMagsSpawned": 2,
-        "NumClipsSpawned": 0,
+        "MaxAmmoCapacity": 11,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
         "NumRoundsSpawned": 9,
-        "SpawnMagAndClip": false,
+        "SpawnMagAndClip": true,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "PPSh41",
-          "Evo3",
-          "vault_pp19",
-          "Gepard",
-          "PP2000"
+          "ftw.gun.rb12.why",
+          "ShgBrkTOZ81",
+          "MP203",
+          "cityrobo_TKB-059",
+          "AK12Prototype",
+          "GunAN94",
+          "FTW.Gun.AK50L"
         ],
         "Eras": [],
         "Sets": [],
@@ -1352,7 +1341,92 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "smg_big.png",
+      "IconName": "icon_small_smg.png",
+      "TokenCost": 4,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 1,
+        "NumMagsSpawned": 2,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 9,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "PPSh41",
+          "Evo3",
+          "vault_pp19",
+          "Gepard",
+          "PP2000",
+          "potatoesvz26"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      },
+      "BackupGroup": {
+        "Category": "Uncategorized",
+        "Rarity": 0.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 0,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 0,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "icon_large_smg.png",
       "TokenCost": 5,
       "TokenCostLimited": 5,
       "MinLevelAppears": 2,
@@ -1434,7 +1508,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "battle_rifle.png",
+      "IconName": "icon_battle.png",
       "TokenCost": 5,
       "TokenCostLimited": 5,
       "MinLevelAppears": 2,
@@ -1462,7 +1536,10 @@
           "SVT40",
           "Ash12",
           "RifBRFedorovAvtomat",
-          "BatRifOTS"
+          "BatRifOTS",
+          "FTW.Gun.AK50L",
+          "Vepr Hunter (Wood)",
+          "Vepr Hunter"
         ],
         "Eras": [],
         "Sets": [],
@@ -1519,7 +1596,88 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "rifle_coldwar.png",
+      "IconName": "icon_antimaterial.png",
+      "TokenCost": 5,
+      "TokenCostLimited": 5,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 10,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 4,
+        "NumRoundsSpawned": 9,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "ftw.gun.ptrd",
+          "PTRS.arp"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      },
+      "BackupGroup": {
+        "Category": "Uncategorized",
+        "Rarity": 0.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 0,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 0,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "icon_rifle_coldwar.png",
       "TokenCost": 8,
       "TokenCostLimited": 8,
       "MinLevelAppears": 2,
@@ -1545,11 +1703,11 @@
           "vz58P",
           "vz58V",
           "vault_aks1",
-          "vault_akmwood",
-          "vault_akmsidefolder",
-          "vault_ak74wood",
-          "VSSVintorez",
-          "ASVAL",
+          "vault_akm",
+          "vault_akmsn",
+          "vault_ak74n",
+          "NWVSS",
+          "NWValBuilt",
           "RPK",
           "RifCarRSM47"
         ],
@@ -1608,7 +1766,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "rifle_modern.png",
+      "IconName": "icon_rifle_modern.png",
       "TokenCost": 10,
       "TokenCostLimited": 10,
       "MinLevelAppears": 3,
@@ -1631,11 +1789,13 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "SR3M",
           "Malyuk",
           "RifCarRSM47p",
-          "GunAN94",
-          "vz58Custom"
+          "vz58Custom",
+          "FSCE.RPKPREBUILT",
+          "AK12",
+          "AKAlfa",
+          "SR1"
         ],
         "Eras": [],
         "Sets": [],
@@ -1670,11 +1830,14 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "vault_ak101black",
-              "vault_ak102black",
-              "vault_ak103black",
-              "vault_ak104black",
-              "vault_ak105plum"
+              "vault_ak101",
+              "vault_ak102",
+              "vault_ak103",
+              "vault_ak104",
+              "vault_ak105",
+              "AK107",
+              "AK108",
+              "AK109"
             ],
             "Eras": [],
             "Sets": [],
@@ -1710,8 +1873,9 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "AK12",
-              "AK12Prototype"
+              "NWDracoMWBuilt",
+              "NWMod3Built",
+              "NWZhukov"
             ],
             "Eras": [],
             "Sets": [],
@@ -1807,7 +1971,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "sights.png",
+      "IconName": "icon_russian.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -1968,7 +2132,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "reflex.png",
+      "IconName": "icon_reflex.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2052,7 +2216,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "scope.png",
+      "IconName": "icon_scopes.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2136,7 +2300,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "suppressor.png",
+      "IconName": "icon_supressor.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2220,7 +2384,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "laser.png",
+      "IconName": "icon_laser.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2304,7 +2468,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "brake.png",
+      "IconName": "icon_brake.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2388,7 +2552,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "barrel.png",
+      "IconName": "icon_barrels.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2473,7 +2637,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "bipod.png",
+      "IconName": "icon_bipods.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2554,7 +2718,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "grip.png",
+      "IconName": "icon_picatinny_foregrip.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2640,7 +2804,7 @@
     },
     {
       "Type": "Equipment",
-      "IconName": "stock.png",
+      "IconName": "icon_stock.png",
       "TokenCost": 1,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
@@ -2724,7 +2888,7 @@
     },
     {
       "Type": "Consumable",
-      "IconName": "health.png",
+      "IconName": "icon_health.png",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 0,
