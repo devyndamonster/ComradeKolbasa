@@ -1,6 +1,6 @@
 ﻿{
   "guid": "h3vr.tnhtweaker.comradekolbasa",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "require": "0.4.1",
   "dependencies": {
     "h3vr.tnhtweaker.deli": "1.6.7"
