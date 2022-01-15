@@ -15,6 +15,7 @@
   "HasSecondaryItem": true,
   "HasTertiaryItem": false,
   "HasShield": true,
+  "DisableCleanupSosigDrops": true,
   "ValidAmmoEras": [
     "PostWar",
     "Modern",
