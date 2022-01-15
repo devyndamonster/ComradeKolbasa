@@ -602,7 +602,8 @@
           "TT33",
           "MP412REX",
           "OTS38",
-          "pbpistol"
+          "pbpistol",
+          "RSH12.Muzz"
         ],
         "Eras": [],
         "Sets": [],
@@ -892,9 +893,9 @@
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
           "PP91KEDR",
-          "AEK919k",
           "VZ64Skorpion",
-          "APS"
+          "APS",
+          "Dev_OTs-33"
         ],
         "Eras": [],
         "Sets": [],
@@ -1287,7 +1288,11 @@
           "cityrobo_TKB-059",
           "AK12Prototype",
           "GunAN94",
-          "FTW.Gun.AK50L"
+          "FTW.Gun.AK50L",
+          "Dev_AD46",
+          "Dev_KorovinAK-45",
+          "Dev_TKB-0136",
+          "Dev_AfanasyevRifle"
         ],
         "Eras": [],
         "Sets": [],
@@ -1367,12 +1372,12 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "PPSh41",
-          "Evo3",
+          "AEK919k",
           "vault_pp19",
           "Gepard",
-          "PP2000",
-          "potatoesvz26"
+          "potatoesvz26",
+          "Dev_TKB-486",
+          "Dev-RG-036"
         ],
         "Eras": [],
         "Sets": [],
@@ -1454,7 +1459,9 @@
         "IDOverride": [
           "Evo3",
           "PPSh41",
-          "PPBizon"
+          "PPBizon",
+          "Dev_SR-2",
+          "PP2000"
         ],
         "Eras": [],
         "Sets": [],
@@ -1877,8 +1884,8 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "NWDracoMWBuilt",
-              "NWMod3Built",
+              "NWVSSM",
+              "NWSR3M",
               "NWZhukov"
             ],
             "Eras": [],
