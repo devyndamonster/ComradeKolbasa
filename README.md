@@ -1,6 +1,6 @@
 [![Kofi](https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0)](https://ko-fi.com/devyn_myers)
 
-![ComradeKolbasa](https://i.imgur.com/lR6v0yl.png)
+![ComradeKolbasa](https://raw.githubusercontent.com/devyndamonster/ComradeKolbasa/master/Icons/ComradeKolbasaPic.png)
 
 ### A TNH character that uses Russian and Czech weapons!
 I HIGHLY recommend that you play with the supported gun mods installed, as default equipment pools are somewhat slim
