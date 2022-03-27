@@ -603,7 +603,9 @@
           "MP412REX",
           "OTS38",
           "pbpistol",
-          "RSH12.Muzz"
+          "RSH12.Muzz",
+          "Dev_R92",
+          "F12"
         ],
         "Eras": [],
         "Sets": [],
@@ -690,7 +692,9 @@
           "NWMPGrach",
           "SR1MP",
           "FTWgunPR15",
-          "FSCE.PL15"
+          "FSCE.PL15",
+          "CZP09Black.Muzz",
+          "Dev_FKBRNO"
         ],
         "Eras": [],
         "Sets": [],
@@ -895,7 +899,8 @@
           "PP91KEDR",
           "VZ64Skorpion",
           "APS",
-          "Dev_OTs-33"
+          "Dev_OTs-33",
+          "Dev_OTs02"
         ],
         "Eras": [],
         "Sets": [],
@@ -980,7 +985,10 @@
           "vault_scopevpo",
           "vault_scopesks",
           "vault_scopesvt",
-          "vault_t5000"
+          "vault_t5000",
+          "Dev_VKS",
+          "Dev_SV99",
+          "Dev_SV98M"
         ],
         "Eras": [],
         "Sets": [],
@@ -1078,7 +1086,8 @@
           "vz58Sport",
           "vault_133a",
           "vault_153a",
-          "SR1"
+          "SR1",
+          "ShgBrkSP81"
         ],
         "Eras": [],
         "Sets": [],
@@ -1162,7 +1171,10 @@
           "vault_153a",
           "MTs255",
           "MP155k",
-          "Saiga12k"
+          "Saiga12k",
+          "Dev_RMB93",
+          "Dev_Tulyak",
+          "ShgBrkSP81"
         ],
         "Eras": [],
         "Sets": [],
@@ -1292,7 +1304,11 @@
           "Dev_AD46",
           "Dev_KorovinAK-45",
           "Dev_TKB-0136",
-          "Dev_AfanasyevRifle"
+          "Dev_AfanasyevRifle",
+          "Dev_SA81",
+          "Dev_AG042",
+          "Dev_SA1",
+          "Dev_Kuzmischev"
         ],
         "Eras": [],
         "Sets": [],
@@ -1377,7 +1393,8 @@
           "Gepard",
           "potatoesvz26",
           "Dev_TKB-486",
-          "Dev-RG-036"
+          "Dev-RG-036",
+          "Dev_OTs22"
         ],
         "Eras": [],
         "Sets": [],
@@ -1549,7 +1566,11 @@
           "BatRifOTS",
           "FTW.Gun.AK50L",
           "Vepr Hunter (Wood)",
-          "Vepr Hunter"
+          "Vepr Hunter",
+          "Dev_ZB26",
+          "Dev_SVCH",
+          "Dev_SVUA",
+          "ftw.vepr308vanilla"
         ],
         "Eras": [],
         "Sets": [],
@@ -1630,7 +1651,8 @@
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
           "ftw.gun.ptrd",
-          "PTRS.arp"
+          "PTRS.arp",
+          "Dev_OSV96"
         ],
         "Eras": [],
         "Sets": [],
@@ -1719,7 +1741,9 @@
           "NWVSS",
           "NWValBuilt",
           "RPK",
-          "RifCarRSM47"
+          "RifCarRSM47",
+          "Dev_VZ52",
+          "Dev_9A91"
         ],
         "Eras": [],
         "Sets": [],
