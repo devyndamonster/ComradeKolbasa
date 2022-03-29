@@ -12,6 +12,11 @@ I HIGHLY recommend that you play with the supported gun mods installed, as defau
 Drag the .zip file into your `BepInEx/plugins` folder and unzip
 
 ### Supported Mods
+
+For all content mods compatible with Comrade Kolbasa, you can download [this modpack!](https://h3vr.thunderstore.io/package/devyndamonster/Comrade_Kolbasa_Content/)
+
+Below is a full list of all mods compatible with this character
+
 - [Meats ModulAR Overhaul](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAR/)
 - [Meats ASh-12](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ASh12/)
 - [Meats ModulAK](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAK/)
