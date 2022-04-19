@@ -5,6 +5,7 @@
     "description": "A TNH character that uses Russian and Czech weapons!",
     "dependencies": [
         "DeliCollective-Deli-0.4.1",
-        "devyndamonster-TakeAndHoldTweaker-1.6.7"
+        "devyndamonster-TakeAndHoldTweaker-1.6.7",
+        "devyndamonster-Devyns_Russian_Guns-1.5.0"
     ]
 }
