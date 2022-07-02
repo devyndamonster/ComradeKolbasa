@@ -78,8 +78,8 @@
       "ItemsToSpawn": 1,
       "MinAmmoCapacity": -1,
       "MaxAmmoCapacity": -1,
-      "NumMagsSpawned": 0,
-      "NumClipsSpawned": 0,
+      "NumMagsSpawned": 3,
+      "NumClipsSpawned": 3,
       "NumRoundsSpawned": 9,
       "SpawnMagAndClip": false,
       "BespokeAttachmentChance": 0.0,
@@ -997,7 +997,6 @@
           "vault_scopesvt",
           "vault_t5000",
           "Dev_VKS",
-          "Dev_SV99",
           "Dev_SV98M"
         ],
         "Eras": [],
