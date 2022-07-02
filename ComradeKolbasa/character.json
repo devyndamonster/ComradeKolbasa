@@ -87,7 +87,11 @@
       "AutoPopulateGroup": false,
       "ForceSpawnAllSubPools": false,
       "IDOverride": [
-        "MosinMini"
+        "MosinMini",
+        "Dev_SV99",
+        "IZh18_20g",
+        "ShgBrkSP81",
+        "Dev_Tulyak"
       ],
       "Eras": [],
       "Sets": [],
@@ -160,7 +164,8 @@
       "ForceSpawnAllSubPools": false,
       "IDOverride": [
         "Dev_PSM",
-        "Dev_BV025"
+        "Dev_BV025",
+        "Dev_RG019"
       ],
       "Eras": [],
       "Sets": [],
@@ -1081,7 +1086,6 @@
           "Toz106",
           "Toz63",
           "IZh18_12g",
-          "IZh18_20g",
           "Izh27",
           "MTs255",
           "MP155k",
@@ -1091,8 +1095,7 @@
           "vz58Sport",
           "vault_133a",
           "vault_153a",
-          "SR1",
-          "ShgBrkSP81"
+          "SR1"
         ],
         "Eras": [],
         "Sets": [],
@@ -1177,8 +1180,7 @@
           "MTs255",
           "MP155k",
           "Saiga12k",
-          "Dev_RMB93",
-          "Dev_Tulyak"
+          "Dev_RMB93"
         ],
         "Eras": [],
         "Sets": [],
@@ -1659,7 +1661,8 @@
         "IDOverride": [
           "ftw.gun.ptrd",
           "PTRS.arp",
-          "Dev_OSV96"
+          "Dev_OSV96",
+          "Dev_KSVK"
         ],
         "Eras": [],
         "Sets": [],
@@ -1751,7 +1754,8 @@
           "RifCarRSM47",
           "Dev_VZ52",
           "Dev_9A91",
-          "Dev_Vahan"
+          "Dev_Vahan",
+          "Dev_APS"
         ],
         "Eras": [],
         "Sets": [],
@@ -1840,7 +1844,8 @@
           "FSCE.GROZA1",
           "FSCE.GROZA4",
           "Dev_AM17",
-          "Dev_AMB17"
+          "Dev_AMB17",
+          "Dev_AEK971"
         ],
         "Eras": [],
         "Sets": [],
@@ -1882,7 +1887,9 @@
               "vault_ak105",
               "AK107",
               "AK108",
-              "AK109"
+              "AK109",
+              "ModulAK101458PB.Muzz",
+              "ModulAK102458PB.Muzz"
             ],
             "Eras": [],
             "Sets": [],

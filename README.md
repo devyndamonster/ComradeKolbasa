@@ -38,6 +38,7 @@ Below is a full list of all mods compatible with this character
 - [Muzzles RSh 12](https://h3vr.thunderstore.io/package/Muzzle_Alt/RSh_12/)
 - [Muzzles CZ P09](https://h3vr.thunderstore.io/package/Muzzle/CZ_P09/)
 - [Muzzles Lago Alien](https://h3vr.thunderstore.io/package/Muzzle_Alt/Laugo_Alien/)
+- [Muzzles ModulAK 458](https://h3vr.thunderstore.io/package/Muzzle/ModulAK458/)
 - [Ashes RPK16](https://h3vr.thunderstore.io/package/fsce/Ashes_ModulRPK16/)
 - [Ashes Groza 1](https://h3vr.thunderstore.io/package/fsce/Ash_Groza1/)
 - [Ashes Groza 4](https://h3vr.thunderstore.io/package/fsce/Ashes_Groza4/)
